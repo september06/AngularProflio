@@ -7,6 +7,7 @@ import { Title } from '@angular/platform-browser';
   styleUrl: './home.css'
 })
 export class Home {
+   profileImagePath = "../../assets/2.jpg";
    constructor(private titleService: Title) {
     this.titleService.setTitle('Amar Amer - Home');
   }
