@@ -10,6 +10,7 @@ import { Protfolio } from './protfolio/protfolio';
 import { Resume } from './resume/resume';
 import { Contact } from './contact/contact';
 import { ProjectCard } from './project-card/project-card';
+import { Projects } from './_service/projects';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ProjectCard } from './project-card/project-card';
     Protfolio,
     Resume,
     Contact,
-    ProjectCard
+    ProjectCard,
+  
   ],
   imports: [
     BrowserModule,

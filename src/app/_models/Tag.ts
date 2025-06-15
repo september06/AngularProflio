@@ -31,7 +31,7 @@ export class Tag{
     static readonly DOCKER = new Tag('Docker', 'linear-gradient(90deg, #2496ED, #0DB7ED)');
     static readonly KUBERNETES = new Tag('Kubernetes', 'linear-gradient(90deg, #326CE5, #003366)');
     static readonly VUEJS = new Tag('Vue.js', 'linear-gradient(90deg, #4FC08D, #41B883, #35495E)');
-    static readonly ASPNET = new Tag('ASPNET', 'linear-gradient(90deg, #512BD4, #2381C6)');
+    static readonly ASPNET = new Tag('.NET', 'linear-gradient(90deg, #512BD4, #2381C6)');
 
 
 
