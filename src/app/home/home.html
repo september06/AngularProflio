@@ -36,13 +36,14 @@ Core Expertise:<br>
         <div class="col-lg shadow border m-1">
             <div class="text-center">
              <h2>Feature Projects</h2>
-<h4>{{featureProjects.name}}</h4>
-            <carousel>
-   <div *ngFor="let picture of featureProjects.picture">
-        <slide><img src={{picture}} style="display: block; width: 100%;"> </slide>
-    </div>
-  </carousel>
-  <p>{{featureProjects.summary}}</p>
-        </div>
+            <h4>{{featureProjects.name}}</h4>
+            </div>
+            <carousel [interval]="3000">
+                <div *ngFor="let picture of featureProjects.picture">
+                <slide><img src={{picture}} style="display: block; width: 100%;"> </slide>
+                </div>
+                </carousel>
+            <p>{{featureProjects.summary}}</p>
+            <p><b>*Visit the Portfoolio section to see more!</b></p>
     </div> <!-- Closing row div -->
 </div> <!-- Closing container div -->
