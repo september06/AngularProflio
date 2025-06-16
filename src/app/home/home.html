@@ -34,10 +34,15 @@ Core Expertise:<br>
 
         <!-- Feature Section -->
         <div class="col-lg shadow border m-1">
+            <div class="text-center">
              <h2>Feature Projects</h2>
-<div>{{featureProjects.name}}</div>
-            <p>Check out my latest projects and contributions.</p>
-            <!-- Add your feature content here -->
+<h4>{{featureProjects.name}}</h4>
+            <carousel>
+   <div *ngFor="let picture of featureProjects.picture">
+        <slide><img src={{picture}} style="display: block; width: 100%;"> </slide>
+    </div>
+  </carousel>
+  <p>{{featureProjects.summary}}</p>
         </div>
     </div> <!-- Closing row div -->
 </div> <!-- Closing container div -->

@@ -18,7 +18,7 @@ projects:Project[] = [
     "https://github.com/september06/Ort-Braude-Library--OBL--javafx/raw/master/image/clientSide/manger.PNG",
     "https://github.com/september06/Ort-Braude-Library--OBL--javafx/raw/master/image/clientSide/active.PNG"
   ],
-      projectLink: "https://github.com/september06/Ort-Braude-Library--OBL--javafx/tree/master", summary: " an application for managing a library system using client-server technology over a TCP/IP connection and protocols. ",
+      projectLink: "https://github.com/september06/Ort-Braude-Library--OBL--javafx/tree/master", summary: "An application for managing a library system using client-server technology over a TCP/IP connection and protocols. ",
      description: `a project within the course ‘‘Engineering Methodologies for Software Systems Development’’, it is an application for managing a library system using client-server technology over a TCP/IP connection and protocols. The duration of the project was a whole semester and was implemented using visual paradigm, Java, JavaFX, SQL and UML diagrams.
 Workspace and tools :
  - Eclipse java EE IDE for Web Developers (Version: Photon Release (4.8.0))
