@@ -7,7 +7,26 @@ import { Tag } from '../_models/Tag';
 })
 export class Projects {
 projects:Project[] = [
-    {id: 0, name: "Sample Python Project", picture: ["../../assets/Image1.png","../../assets/Image2.png","../../assets/Image3.png"], projectLink: "//www.github.com", summary: "Python project that analyzes stock market data.", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", tags: [Tag.PYTHON]},
+    {id: 0, 
+      name: "Ort Braude Library", 
+  picture: [
+    "https://github.com/september06/Ort-Braude-Library--OBL--javafx/raw/master/image/ServerSide/serverafterconnect.PNG",
+    "https://github.com/september06/Ort-Braude-Library--OBL--javafx/raw/master/image/clientSide/clientConnect.PNG",
+    "https://github.com/september06/Ort-Braude-Library--OBL--javafx/raw/master/image/clientSide/serch+login.PNG",
+    "https://github.com/september06/Ort-Braude-Library--OBL--javafx/raw/master/image/clientSide/search.PNG",
+    "https://github.com/september06/Ort-Braude-Library--OBL--javafx/raw/master/image/clientSide/userlogin.PNG",
+    "https://github.com/september06/Ort-Braude-Library--OBL--javafx/raw/master/image/clientSide/manger.PNG",
+    "https://github.com/september06/Ort-Braude-Library--OBL--javafx/raw/master/image/clientSide/active.PNG"
+  ],
+      projectLink: "https://github.com/september06/Ort-Braude-Library--OBL--javafx/tree/master", summary: " an application for managing a library system using client-server technology over a TCP/IP connection and protocols. ",
+     description: `a project within the course ‘‘Engineering Methodologies for Software Systems Development’’, it is an application for managing a library system using client-server technology over a TCP/IP connection and protocols. The duration of the project was a whole semester and was implemented using visual paradigm, Java, JavaFX, SQL and UML diagrams.
+Workspace and tools :
+ - Eclipse java EE IDE for Web Developers (Version: Photon Release (4.8.0))
+ - MySQL (Version:8.0.15)
+ - MySQL WORKBENCH (Version:8.0.17)
+ - Gluon Javafx Scene Builder (Version:8.1.1)
+ - Visual Paradigm (Version:15.0)`,
+     tags: [Tag.JAVA, Tag.JAVAFX, Tag.MYSQL, Tag.VISUALPARADIGM, Tag.TCPIP, Tag.CLIENTSERVER, Tag.UMLDIAGRAMS]},
     {id: 1, name: "Sample Angular App", picture: ["../../assets/Image1.png","../../assets/Image2.png","../../assets/Image3.png"], projectLink: "//www.github.com", summary: "Fullstack web app developed using Angular and Node.JS", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", tags: [Tag.ANGULAR, Tag.TYPESCRIPT, Tag.NODEJS]},
     {id: 2, name: "Sample .Net App", picture: ["../../assets/Image1.png","../../assets/Image2.png","../../assets/Image3.png"], projectLink: "//www.github.com", summary: "Fullstack web app developed using React and ASP.NET", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", tags: [Tag.REACT ,Tag.CSHARP, Tag.ASPNET]},
     {id: 3, name: "Web API Project", picture: ["../../assets/Image1.png","../../assets/Image2.png","../../assets/Image3.png"], projectLink: "//www.github.com", summary: "Web API Project that was developed for a class project.", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", tags: [Tag.CSHARP, Tag.ASPNET]},

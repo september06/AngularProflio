@@ -11,7 +11,9 @@ import { Resume } from './resume/resume';
 import { Contact } from './contact/contact';
 import { ProjectCard } from './project-card/project-card';
 import { Projects } from './_service/projects';
-
+import { ModalModule } from 'ngx-bootstrap/modal';
+import { ProjectModle } from './project-modle/project-modle';
+import { CarouselModule } from 'ngx-bootstrap/carousel';
 @NgModule({
   declarations: [
     App,
@@ -22,14 +24,18 @@ import { Projects } from './_service/projects';
     Resume,
     Contact,
     ProjectCard,
+    ProjectModle,
   
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ModalModule.forRoot(),
+    CarouselModule.forRoot()
   ],
   providers: [
+    Projects,
     provideBrowserGlobalErrorListeners(),
     provideZonelessChangeDetection(),
     provideClientHydration(withEventReplay())

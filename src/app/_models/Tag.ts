@@ -32,6 +32,13 @@ export class Tag{
     static readonly KUBERNETES = new Tag('Kubernetes', 'linear-gradient(90deg, #326CE5, #003366)');
     static readonly VUEJS = new Tag('Vue.js', 'linear-gradient(90deg, #4FC08D, #41B883, #35495E)');
     static readonly ASPNET = new Tag('.NET', 'linear-gradient(90deg, #512BD4, #2381C6)');
+    static readonly JAVAFX = new Tag('JavaFX', 'linear-gradient(90deg, #1B72BE,rgb(149, 135, 135))');
+    static readonly UML = new Tag('UML', 'linear-gradient(90deg, #F0C808, #7B1FA2)');
+    static readonly VISUALPARADIGM = new Tag('Visual Paradigm', 'linear-gradient(90deg, #E60012, #F39800)');
+    static readonly TCPIP = new Tag('TCP/IP', 'linear-gradient(90deg, #009688, #607D8B)');
+    static readonly CLIENTSERVER = new Tag('Client/Server', 'linear-gradient(90deg, #00BCD4, #8BC34A)');
+    static readonly UMLDIAGRAMS = new Tag('UML Diagrams', 'linear-gradient(90deg, #7B1FA2, #F0C808)');
+    static readonly MYSQL = new Tag('MySQL', 'linear-gradient(90deg, #336791,rgb(131, 189, 202))');
 
 
 
