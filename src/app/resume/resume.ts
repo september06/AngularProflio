@@ -7,6 +7,7 @@ import { Title } from '@angular/platform-browser';
   styleUrl: './resume.css'
 })
 export class Resume {
+  isWorkExperienceOpen : boolean = false;
    constructor(private titleService: Title, private renderer: Renderer2) {
     this.titleService.setTitle('Amar Amer - Resume');
  }
