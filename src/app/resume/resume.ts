@@ -8,6 +8,10 @@ import { Title } from '@angular/platform-browser';
 })
 export class Resume {
   isWorkExperienceOpen : boolean = false;
+  isEducationOpen : boolean = false;
+  isCertificationsOpen : boolean = false;
+  isSkillseOpen : boolean = false;
+  isLanguagesOpen : boolean = false;
    constructor(private titleService: Title, private renderer: Renderer2) {
     this.titleService.setTitle('Amar Amer - Resume');
  }

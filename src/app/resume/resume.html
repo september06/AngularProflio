@@ -4,23 +4,81 @@
     <accordion [isAnimated]="true" class="shadow">
     <accordion-group [(isOpen)]="isWorkExperienceOpen" >
       <button class="btn btn-block justify-content-between d-flex w-100" accordion-heading>
+        <div style="visibility: hidden;">></div>
         <div class="btn-link">Work Experience</div>
-        <div></div>
-        <div *ngIf="!isWorkExperienceOpen" style="color: white;">></div>
+        <div style="width: 10.95px;">
+             <div *ngIf="!isWorkExperienceOpen" style="color: white;">></div>
         <div  *ngIf="isWorkExperienceOpen" style="color: white;">v</div>
+    </div>
+      </button>  
+      <P>Software Engineer - Java Developer at Amdocs | 2021 – 2025:
+•
+Customizing Amdocs enterprise clustered products to support several accounts, especially Vodafone Ziggo.
+•
+Designing, developing, and maintaining backend systems using Java technologies.
+•
+Developing, maintaining, and deploying enterprise-level applications utilizing REST APIs and EJB services on UNIX machines.
+•
+Managing and tracking tasks, new features and fixing relevant application defects using JIRA.
+•
+Ensuring continuous integration and deployment through Jenkins.
+•
+Automating deployments and sanity checks using SWP++ for seamless delivery.
+•
+Working with WebLogic servers for application hosting and Oracle SQL for database interactions.
+•
+Conducting code reviews and mentoring newcomers.
+•
+Executing rigorous tests to identify issues and analyze results.</P>
+      
+         </accordion-group>
+
+    <accordion-group  [(isOpen)]="isEducationOpen">
+        <button class="btn btn-block justify-content-between d-flex w-100" accordion-heading>
+        <div style="visibility: hidden;">></div>
+        <div class="btn-link">Education</div>
+        <div style="width: 10.95px;">
+             <div *ngIf="!isEducationOpen" style="color: white;">></div>
+        <div  *ngIf="isEducationOpen" style="color: white;">v</div>
+    </div>
+   
       </button>      
          </accordion-group>
 
-    <accordion-group heading="Education">
-         </accordion-group>
-
-     <accordion-group heading="Certifications">
+     <accordion-group  [(isOpen)]="isCertificationsOpen">
+         <button class="btn btn-block justify-content-between d-flex w-100" accordion-heading>
+        <div style="visibility: hidden;">></div>
+        <div class="btn-link">Certifications</div>
+        <div style="width: 10.95px;">
+             <div *ngIf="!isCertificationsOpen" style="color: white;">></div>
+        <div  *ngIf="isCertificationsOpen" style="color: white;">v</div>
+    </div>
+   
+      </button>      
          </accordion-group>
          
-     <accordion-group heading="Skills">
+     <accordion-group  [(isOpen)]="isSkillseOpen">
+         <button class="btn btn-block justify-content-between d-flex w-100" accordion-heading>
+        <div style="visibility: hidden;">></div>
+        <div class="btn-link">Skills</div>
+        <div style="width: 10.95px;">
+             <div *ngIf="!isSkillseOpen" style="color: white;">></div>
+        <div  *ngIf="isSkillseOpen" style="color: white;">v</div>
+    </div>
+   
+      </button>      
          </accordion-group>
 
-   <accordion-group heading="Languages">
+   <accordion-group  [(isOpen)]="isLanguagesOpen">
+     <button class="btn btn-block justify-content-between d-flex w-100" accordion-heading>
+        <div style="visibility: hidden;">></div>
+        <div class="btn-link">Language</div>
+        <div style="width: 10.95px;">
+             <div *ngIf="!isLanguagesOpen" style="color: white;">></div>
+        <div  *ngIf="isLanguagesOpen" style="color: white;">v</div>
+    </div>
+   
+      </button>      
          </accordion-group>
 
   </accordion></div>
