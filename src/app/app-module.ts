@@ -14,6 +14,7 @@ import { Projects } from './_service/projects';
 import { ModalModule } from 'ngx-bootstrap/modal';
 import { ProjectModle } from './project-modle/project-modle';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
+import { AccordionModule } from 'ngx-bootstrap/accordion';
 @NgModule({
   declarations: [
     App,
@@ -32,6 +33,7 @@ import { CarouselModule } from 'ngx-bootstrap/carousel';
     BrowserAnimationsModule,
     AppRoutingModule,
     ModalModule.forRoot(),
+    AccordionModule.forRoot(),
     CarouselModule.forRoot()
   ],
   providers: [
