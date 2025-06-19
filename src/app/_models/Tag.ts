@@ -39,6 +39,9 @@ export class Tag{
     static readonly CLIENTSERVER = new Tag('Client/Server', 'linear-gradient(90deg, #00BCD4, #8BC34A)');
     static readonly UMLDIAGRAMS = new Tag('UML Diagrams', 'linear-gradient(90deg, #7B1FA2, #F0C808)');
     static readonly MYSQL = new Tag('MySQL', 'linear-gradient(90deg, #336791,rgb(131, 189, 202))');
+    static readonly MULTITHREADING = new Tag('Multithreding', 'linear-gradient(90deg, #336791,rgb(0, 0, 0))');
+    static readonly OOP = new Tag('OOP', 'linear-gradient(90deg, #2193b0,rgb(133, 166, 173), #b721ff)');
+ 
 
 
 

@@ -29,8 +29,21 @@ Workspace and tools :
  - MySQL WORKBENCH
  - Gluon Javafx Scene Builder 
  - Visual Paradigm `,
-     tags: [Tag.JAVA, Tag.JAVAFX, Tag.MYSQL, Tag.VISUALPARADIGM, Tag.TCPIP, Tag.CLIENTSERVER, Tag.UMLDIAGRAMS]},
-    {id: 1, name: "Sample Angular App", picture: ["../../assets/Image1.png","../../assets/Image2.png","../../assets/Image3.png"], projectLink: "//www.github.com", summary: "Fullstack web app developed using Angular and Node.JS", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", tags: [Tag.ANGULAR, Tag.TYPESCRIPT, Tag.NODEJS]},
+     tags: [Tag.JAVA, Tag.JAVAFX, Tag.MYSQL, Tag.VISUALPARADIGM, Tag.TCPIP, Tag.CLIENTSERVER, Tag.UMLDIAGRAMS, Tag.OOP]},
+    {
+  id: 1,
+  name: "Bingo Game with JavaFX",
+  picture: [
+    "https://github.com/september06/project-in-javafx-bingo-game-/raw/master/picture/bingo2.PNG",
+    "https://github.com/september06/project-in-javafx-bingo-game-/raw/master/picture/cheat.PNG",
+    "https://github.com/september06/project-in-javafx-bingo-game-/raw/master/picture/finsh.PNG",
+    "https://github.com/september06/project-in-javafx-bingo-game-/raw/master/picture/winner.PNG"
+  ],
+  projectLink: "https://github.com/september06/project-in-javafx-bingo-game-/tree/master",
+  summary: " ‘i\It is a board game  with multithreading for players (up to 12).",
+  description: "A project within the course ‘‘Object-oriented programming”, it is a game board with multithreading for players (up to12) in javafx.",
+  tags: [Tag.JAVA, Tag.JAVAFX, Tag.MULTITHREADING,Tag.OOP]
+},
     {id: 2, name: "Sample .Net App", picture: ["../../assets/Image1.png","../../assets/Image2.png","../../assets/Image3.png"], projectLink: "//www.github.com", summary: "Fullstack web app developed using React and ASP.NET", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", tags: [Tag.REACT ,Tag.CSHARP, Tag.ASPNET]},
     {id: 3, name: "Web API Project", picture: ["../../assets/Image1.png","../../assets/Image2.png","../../assets/Image3.png"], projectLink: "//www.github.com", summary: "Web API Project that was developed for a class project.", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", tags: [Tag.CSHARP, Tag.ASPNET]},
     {id: 4, name: "Chrome Extension", picture: ["../../assets/Image1.png","../../assets/Image2.png","../../assets/Image3.png"], projectLink: "//www.github.com", summary: "Developed a chrome extension that tracks the prices of furniture.", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", tags: [Tag.JAVASCRIPT]},
